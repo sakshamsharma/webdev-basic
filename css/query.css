@@ -114,3 +114,8 @@ select {
     padding: 5px;
   }
 }
+
+
+.query {
+  font-family: Courier;
+}

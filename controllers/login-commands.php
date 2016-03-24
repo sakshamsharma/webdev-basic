@@ -38,7 +38,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == "Register") {
     session_start();
     $_SESSION["username"] = $_POST['name'];
     $_SESSION["id"] = session_id();
-    header('Location: /query.php');
+    header('Location: ./info.php');
   } else {
     echo "Wrong username or password.";
   }

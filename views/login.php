@@ -1,13 +1,13 @@
 <html>
 <head>
   <title>Login to iitk-portal</title>
-  <link href="login.css" rel="stylesheet" type="text/css">
+  <link href="../css/login.css" rel="stylesheet" type="text/css">
   <meta charset="UTF-8">
 </head>
 <body>
   <div class=box>
     Login
-    <form method ="post" action="login.php">
+    <form method ="post" action="./login.php">
       <input class="inp-box" name="name" placeholder="Username" autocomplete="off"/>
       <input class="inp-box" name="password" placeholder="Password" autocomplete="off"/>
       <p>
@@ -16,7 +16,7 @@
       <input class="button" name="reset" type="reset" value="Clear Form">
     </form>
     <div class="message-box">
-      <?php include './login-commands.php'?>
+      <?php include '../controllers/login-commands.php'?>
     </div>
   </div>
 </body>

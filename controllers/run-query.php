@@ -1,10 +1,5 @@
 <?php
-session_start();
-$valid_session = isset($_SESSION['id']) ? $_SESSION['id'] === session_id() : FALSE;
-if (!$valid_session) {
-   header('Location: login.php');
-   exit();
-}
+include '../redirection.php';
 $db = new SQLite3('iitk');
 if (isset($_POST['query'])) {
   $result = $db->query($_POST['query']);

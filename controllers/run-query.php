@@ -1,6 +1,6 @@
 <?php
 include '../redirection.php';
-$db = new SQLite3('iitk');
+$db = new SQLite3('../iitk');
 $str = '';
 if ( $_POST['query'] != '') {
   $str = $_POST['query'];

@@ -93,3 +93,24 @@ tr.heading {
 td.heading {
   padding: 3px;
 }
+
+select {
+  margin: 10px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media screen and (min-width: 0\0) {
+  select {
+    background: none;
+    padding: 5px;
+  }
+}

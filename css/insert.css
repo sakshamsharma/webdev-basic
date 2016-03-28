@@ -106,3 +106,7 @@ select {
 .query {
   font-family: Courier;
 }
+
+em {
+  color: #333366;
+}

@@ -1,5 +1,5 @@
 <?php
-$db = new SQLite3('../iitk');
+$db = new SQLite3('/tmp/iitk');
 
 if (isset($_POST['submit']) && $_POST['submit'] == "Register") {
 
